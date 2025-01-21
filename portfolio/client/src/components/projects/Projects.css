@@ -1,0 +1,86 @@
+.projects{
+    margin-top: 10px;
+    width:100%;
+    height:fit-content;
+    margin-bottom: 10px;
+}
+.amith{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.heading{
+    padding: 10px;
+}
+img{
+    width:250px;
+    height: 250px;
+    background-size: cover;
+    transition: 0.3s;
+}
+.box:hover img{
+    transform: scale(1.1);
+}
+.boxes{
+    width:100%;
+    height:fit-content;
+    min-height: 65vh;
+    display: flex;
+    justify-content:space-evenly;
+    gap:30px;
+    flex-flow: wrap;
+}
+.box{
+    width:250px;
+    overflow: hidden;
+    height: fit-content;
+}
+.top{
+    width:100%;
+}
+.bottom{
+    width: 100%;
+    height:fit-content;
+    overflow: hidden;
+    position: relative;
+    top: -4px;
+    max-height: 0px;
+    transition: 0.5s;
+}
+.box:hover .bottom{
+    max-height: 200px;
+}
+.top .heading{
+    text-align: center;
+    background-color: #262626;
+    position: relative;
+    top:-4px;
+    transition:0.3s;
+}
+.para{
+    padding: 10px;
+    background-color: #262626;
+}
+.read{
+    float: right;
+    padding: 10px;
+    padding-right: 20px;
+    background-color:#ff004f;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.read:hover{
+    transform: translateX(10px);
+}
+@media only screen and (max-width:600px){
+    .box{
+        margin: 10px;
+    }
+    .amith{
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+        position:relative;
+        top:0px;
+    }
+}

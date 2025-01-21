@@ -1,0 +1,128 @@
+.contact{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+    height:fit-content;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.right{
+    width:30%;
+}
+.left{
+    width:60%;
+}
+.contactform{
+    display: flex;
+    flex-direction:column;
+}
+input ,textarea{
+    padding: 15px;
+    margin:15px 0px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background-color: #262626;
+    color: #fff;
+    font-size: 18px;
+    resize: none;
+}
+.btn{
+    width:200px;
+    height:50px;
+    border:none;
+    background-color:#ff004f;
+    border-radius: 5px;
+    font-size: 18px;
+    margin:15px 0px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: translateX(10px);
+}
+.right h1{
+    font-size: 50px;
+    margin: 20px 0px;
+}
+.right p{
+    color: rgb(171, 176, 180);
+    margin: 20px 0px;
+}
+.icon{
+    margin:0px 10px;
+    font-size: 30px;
+    position: relative;
+    top:7px;
+}
+.logo{
+    margin:10px 0px;
+}
+.logo1{
+    margin:5px 15px;
+    font-size:30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo1:hover{
+    transform: translateX(10px);
+}
+.name,.email,.message{
+    transition: 0.5s;
+}
+.name:hover{
+    transform: translateX(10px);
+}
+.email:hover{
+    transform: translateX(10px);
+}
+.message:hover{
+    transform: translateX(10px);
+}
+@media only screen and (max-width:900px){
+    .contact{
+        height: 100vh;
+    }
+    .right , .left{
+        flex-basis: 100%;
+        height: fit-content;
+    }
+    .right h1{
+        font-size: 30px;
+        margin: 5px 5px;
+    }
+    .right p{
+        font-size: 14px;
+    }
+    .logo1{
+        font-size: 20px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .btn{
+        margin: 10px;
+        width:150px;
+        height:35px;
+    }
+    input , textarea{
+        padding: 10px;
+        margin:5px 10px;
+        font-size: 14px;
+    }
+    .logo{
+        margin: 0px;
+    }
+}
+.yes{
+    display: block;
+}
+.no{
+    display: none;
+}
+.messagesent{
+    color: rgb(43, 190, 43);
+}

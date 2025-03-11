@@ -1,14 +1,8 @@
 import { useState } from 'react'
+import Skills_Data from '../../data/skills.json'
 import nitw from '../../assets/nitw.jpg'
-import HTML from '../../assets/HTML.png'
-import CSS from '../../assets/CSS.png'
-import JavaScript from '../../assets/JavaScript.png'
-import React from '../../assets/React.png'
-import nodejs from '../../assets/nodejs.png'
-import expressjs from '../../assets/expressjs.png'
-import mongoDB from '../../assets/mongoDB.jpeg'
-import C from '../../assets/C++.png'
 import './About.css'
+
 export default function About() {
   const [Skills,setSkills]=useState(true)
   const [Education,setEducation]=useState(false)
@@ -46,14 +40,11 @@ export default function About() {
         <div className='tab-cont2'>
             <ul className={`list ${Skills?'active':''}`}>
               <div className='style'>
-              <li><img className='skillpic' src={HTML} alt=''></img><br/>HTML</li>
-                <li><img className='skillpic' src={CSS} alt=''></img><br/>CSS</li>
-                <li><img className='skillpic' src={JavaScript} alt=''></img><br/>JavaScript</li>
-                <li><img className='skillpic' src={React} alt=''></img><br/>React</li>
-                <li><img className='skillpic' src={nodejs} alt=''></img><br/>NodeJs</li>
-                <li><img className='skillpic' src={expressjs} alt=''></img><br/>ExpressJs</li>
-                <li><img className='skillpic' src={mongoDB} alt=''></img><br/>MongoDB</li>
-                <li><img className='skillpic' src={C} alt=''></img><br/>C++</li>
+                {
+                  Skills_Data.map((skills,index)=>(
+                    <li key={index}><img className='skillpic' src={`/${skills.skill_img}`} alt=''></img><br/>{skills.skill_name}</li>
+                  ))
+                }
               </div>
             </ul>
             <ul className={`list ${Education?'active':''}`}>

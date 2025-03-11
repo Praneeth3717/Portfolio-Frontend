@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Contact.css'
-import Resume from '../../assets//NIT_Warangal_Resume__1___Copy_ (5).pdf'
+import Resume from '../../assets/Resume_Praneeth.pdf'
 import { FaRegEnvelope ,FaPhoneAlt} from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import {BsFacebook,BsInstagram,BsLinkedin} from "react-icons/bs";

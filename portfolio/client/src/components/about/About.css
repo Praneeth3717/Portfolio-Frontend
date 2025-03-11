@@ -80,6 +80,7 @@ p.red{
 }
 .abclick{
     position: relative;
+    cursor: pointer;
 }
 .abclick::after{
     content: '';

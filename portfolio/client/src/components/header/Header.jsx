@@ -33,7 +33,7 @@ export default function Header() {
     <div className='part'>
       <div className='part1'>
         <div className='part11'>
-          <p className='part111'>MernStack - Developer</p>
+          <p className='part111'>FullStack Developer</p>
           <p className='part112'>Hi, I am <span className='part1121'>Praneeth</span></p>
         </div>
       </div>

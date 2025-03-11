@@ -1,26 +1,32 @@
 [
-    {
-        "imgName": "Diary",
-        "heading": "Diary Application",
-        "description": "Developed a full-stack diary app with authentication (Login/Signup), secure entry management, and personalized user features.",
-        "link": "https://diary-mern-frontend.onrender.com"
-    },
-    {
-        "imgName": "AddUser",
-        "heading": "Add-User Webpage",
-        "description": "Developed an Add User page with full CRUD (Create, Read, Update, Delete) functionality, allowing seamless user management.",
-        "link": "https://mernstack-crud-frontend.onrender.com"
-    },
-    {
-      "imgName": "weather",
-      "heading": "Weather Webpage",
-      "description": "A user responsive API-based website which fetches weather information for a user-specified location and shows recent search history.",
-      "link": "https://praneeth3717.github.io/Weather-app/"
-    },
-    {
-      "imgName": "amazon",
-      "heading": "Amazon-clone",
-      "description": "A user-responsive website clone of amazon.com using HTML and CSS.",
-      "link": "https://praneeth3717.github.io/Amazon-clone/"
-    }
-  ]
+  {
+    "imgName": "Hotel.jpg",
+    "heading": "Fortune Heights",
+    "description": "Built a production-ready MERN stack hotel booking website with authentication, optimized MongoDB queries, and efficient image handling.",
+    "link": "https://hotel-booking-clientend.onrender.com"
+  },
+  {
+      "imgName": "Diary.jpg",
+      "heading": "Diary Application",
+      "description": "Developed a full-stack diary app with authentication (Login/Signup), secure entry management, and personalized user features.",
+      "link": "https://diary-mern-frontend.onrender.com"
+  },
+  {
+      "imgName": "AddUser.png",
+      "heading": "Add-User Webpage",
+      "description": "Developed an Add User page with full CRUD (Create, Read, Update, Delete) functionality, allowing seamless user management.",
+      "link": "https://mernstack-crud-frontend.onrender.com"
+  },
+  {
+    "imgName": "weather.jpg",
+    "heading": "Weather Webpage",
+    "description": "A user responsive API-based website which fetches weather information for a user-specified location and shows recent search history.",
+    "link": "https://praneeth3717.github.io/Weather-app/"
+  },
+  {
+    "imgName": "amazon.jpg",
+    "heading": "Amazon-clone",
+    "description": "A user-responsive website clone of amazon.com using HTML and CSS.",
+    "link": "https://praneeth3717.github.io/Amazon-clone/"
+  }
+]

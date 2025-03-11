@@ -22,13 +22,13 @@ img{
     transform: scale(1.1);
 }
 .boxes{
-    width:100%;
     height:fit-content;
     min-height: 65vh;
     display: flex;
     justify-content:space-evenly;
     gap:30px;
     flex-flow: wrap;
+    margin: 30px;
 }
 .box{
     width:250px;

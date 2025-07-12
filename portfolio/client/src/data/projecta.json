@@ -1,21 +1,33 @@
 [
   {
+    "imgName": "cover_photo.webp",
+    "heading": "Multi-Agent Bot",
+    "description": "Developed an AI-driven multi-agent system using LangGraph.js and Node.js to automate client support, order creation, and analytics reporting.",
+    "link": "https://multi-agent-bot.vercel.app/"
+  },
+  {
+    "imgName": "expenses.webp",
+    "heading": "Expense Tracker",
+    "description": "Built a real-time full-stack expense tracker with Next.js, MongoDB, and Recharts. Implemented custom authentication and interactive income/expense charts.",
+    "link": "https://expense-tracker-gamma-flame.vercel.app/"
+  },
+  {
     "imgName": "Hotel.jpg",
     "heading": "Fortune Heights",
     "description": "Built a production-ready MERN stack hotel booking website with authentication, optimized MongoDB queries, and efficient image handling.",
     "link": "https://hotel-booking-clientend.onrender.com"
   },
   {
-      "imgName": "Diary.jpg",
-      "heading": "Diary Application",
-      "description": "Developed a full-stack diary app with authentication (Login/Signup), secure entry management, and personalized user features.",
-      "link": "https://diary-mern-frontend.onrender.com"
+    "imgName": "Diary.jpg",
+    "heading": "Diary Application",
+    "description": "Developed a full-stack diary app with authentication (Login/Signup), secure entry management, and personalized user features.",
+    "link": "https://diary-mern-frontend.onrender.com"
   },
   {
-      "imgName": "AddUser.png",
-      "heading": "Add-User Webpage",
-      "description": "Developed an Add User page with full CRUD (Create, Read, Update, Delete) functionality, allowing seamless user management.",
-      "link": "https://mernstack-crud-frontend.onrender.com"
+    "imgName": "AddUser.png",
+    "heading": "Add-User Webpage",
+    "description": "Developed an Add User page with full CRUD (Create, Read, Update, Delete) functionality, allowing seamless user management.",
+    "link": "https://mernstack-crud-frontend.onrender.com"
   },
   {
     "imgName": "weather.jpg",
@@ -30,3 +42,4 @@
     "link": "https://praneeth3717.github.io/Amazon-clone/"
   }
 ]
+
